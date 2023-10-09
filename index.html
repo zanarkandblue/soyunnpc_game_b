@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SOY UN NPC B- Aventura de texto</title>
+    <link rel="stylesheet" href="./css/styles.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans&display=swap');
+    </style>
+</head>
+<body>
+    <div class="main-container">
+        <div class="navbar">
+            <a href="https://www.instagram.com/soyunnpc42.0/">About me</a> 
+        </div>
+
+        <div class="hero">
+         <img class="logo" src="./img/logo.png" alt="">
+        </div>
+
+                <div class="cards-container">
+                      
+                    <div class="playercard" id="playerStats">
+                        <p>Stats jugador</p>
+                        <span class="stat">HP: <strong><span id="playerHealth"></span></strong></span>
+                    </div>
+                    <div class ="monstercard" id="monsterStats">
+                        <p>Stats enemigo</p>
+                        <span class="stat">Nombre: <strong><span id="monsterName"></span></strong></span>
+                        <span class="stat">HP: <strong><span id="monsterHealth"></span></strong></span>              
+                    </div>
+                </div>
+
+    <div class = "container-gametext"> 
+     <div class="gametext" id="text">
+        AQUI VA EL TEXTO DEL JUEGO
+    </div>
+   
+       
+
+        <div class="button-grid" id="option-buttons">
+            
+            <button id="btn-1">Opción 1</button>
+            <button id="btn-2">Opción 2</button>
+            <button id="btn-3">Opción 3</button>
+            <button id="btn-4">Opción 4</button>
+        </div>
+    </div>
+<footer>
+    <span class="stat">ZOMBIES ELIMINADOS: <strong><span id="killCountText"></span></strong></span>
+</footer>
+  
+
+</div>
+
+
+    
+
+    <script src="js/main.js"></script>
+</body>
+</html>

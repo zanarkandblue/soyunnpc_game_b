@@ -1,0 +1,77 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Pixelify Sans', cursive;;
+}
+
+body {
+    background-color: #333333;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+    width: 800px;
+    max-width: 80%;
+    align-items:stretch;
+    background-color: #249fa8;
+    padding: 10px;
+  }
+
+.navbar {
+    align-content: end;
+}
+
+.cards-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Dos columnas */
+    grid-template-rows: 1fr 1fr; /* Dos filas */
+    gap: 20px; /* Espacio entre los elementos */
+}
+
+.playerportrait img{
+    max-width: 120px;
+}
+
+.logo {
+    max-width: 100%;
+}
+
+.gameStats {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.monsterClass {
+    display: flex;
+    flex-direction: row; 
+}
+
+.characters {
+    display: flex;
+    flex-direction: row;
+}
+
+.container-gametext {
+    padding: 10px;
+    border-radius: 5px;
+    background-color: white;
+}
+
+.button-grid {
+    display: grid;
+    grid-template-columns: repeat(1, auto);
+    gap: 10px;
+    margin-top: 20px;
+}
+
